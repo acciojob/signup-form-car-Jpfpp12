@@ -17,14 +17,20 @@
         <input type="email" id="email" name="email" required>
         <br><br>
 
-        <label for="gender">Gender:</label>
-        <select id="gender" name="gender" required>
-            <option value="">Select</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Other</option>
-        </select>
-        <br><br>
+       <label for="gender">Gender*</label>
+    <div>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+    </div>
+    <div>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+    <div>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </div>
+    <br><br>
 
         <label for="cars">Car Brands:</label>
         <select id="cars" name="cars" required>
